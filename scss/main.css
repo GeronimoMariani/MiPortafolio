@@ -72,15 +72,15 @@ header {
   font-weight: 700;
 }
 .divPresentacion h1 {
-  font-size: 55px;
+  font-size: 3.438rem;
   color: #449DD1;
 }
 .divPresentacion h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   color: #449DD1;
 }
 .divPresentacion p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
