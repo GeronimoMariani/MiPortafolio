@@ -2,8 +2,97 @@ body {
     background-color: #1f2937;
 }
 .divPresentacion {
-    width: 600px;
+    width: 700px;
     height: auto;
     margin: 0px auto;
     text-align: center;
+    font-weight: 700;
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 20px;
+}
+.likedin {
+    display: inline-block;
+    background-color: white;
+    margin: 0px auto;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 100px;
+    &:hover {
+        transform: scale(1.1);
+        transition: all .6s;
+    }
+    .fa-linkedin-in {
+        font-size: 20px;
+        margin-top: 17px;
+        text-align: center;
+    }
+}
+.gitHub {
+    display: inline-block;
+    background-color: white;
+    margin: 0px auto;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 100px;
+    &:hover {
+        transform: scale(1.1);
+        transition: all .6s;
+    }
+    .fa-github {
+        font-size: 20px;
+        margin-top: 17px;
+        text-align: center;
+    }
+}
+.correo {
+    display: inline-block;
+    background-color: white;
+    margin: 0px auto;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 100px;
+    &:hover {
+        transform: scale(1.1);
+        transition: all .6s;
+    }
+    .fa-envelope {
+        font-size: 20px;
+        margin-top: 17px;
+        text-align: center;
+    }
+}
+.whatsapp {
+    display: inline-block;
+    background-color: white;
+    margin: 0px auto;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 100px;
+    &:hover {
+        transform: scale(1.1);
+        transition: all .6s;
+    }
+    .fa-whatsapp {
+        font-size: 20px;
+        margin-top: 17px;
+        text-align: center;
+    }
 }
