@@ -1,10 +1,60 @@
 body {
     background-color: #1f2937;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divLogo {
+    .imgLogo {
+        width: 180px;
+        height: auto;
+        text-align: center;
+        margin-left: 50px;
+    }
+}
+.navIdioma ul {
+    list-style-type: none;
+    margin-right: 190px;
+    padding: 0;
+    width: 40px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    background-color: #004aad;
+}
+.navIdioma ul li {
+    display: inline-block;
+    position: relative;
+}
+.navIdioma ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #004aad;
+    padding: 0;
+}
+.navIdioma ul li:hover ul {
+    display: block;
+    transition: all 1s;
+}
+.navIdioma ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navIdioma ul li ul li {
+    display: block;
+    width: 100%;
+}
 .divPresentacion {
     width: 700px;
     height: auto;
-    margin: 0px auto;
+    margin: 125px auto;
     text-align: center;
     font-weight: 700;
     h1 {
