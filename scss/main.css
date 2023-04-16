@@ -249,4 +249,80 @@ header {
 }
 .habilidades .divHabilidades .grid-container .grid-item h5 {
   font-weight: 700;
+}
+
+.proyectos .divProyectos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.proyectos .divProyectos h6 {
+  margin-top: 125px;
+  font-size: 18px;
+  color: #004aad;
+}
+.proyectos .divProyectos h2 {
+  font-size: 50px;
+  color: #449DD1;
+}
+.proyectos .divProyectos .grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.proyectos .divProyectos .grid-container2 .grid-item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f1e0;
+  box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  width: 550px;
+  height: 350px;
+  margin-top: 50px;
+  position: relative;
+}
+.proyectos .divProyectos .grid-container2 .grid-item2 img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.proyectos .divProyectos .grid-container2 .grid-item2 .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+  color: white;
+  background-image: radial-gradient(circle at 14.64% -11.24%, #d050ed 0, #b848ef 16.67%, #9b41f1 33.33%, #783cf2 50%, #4439f3 66.67%, #0038f5 83.33%, #0039f6 100%);
+  border-radius: 10px;
+}
+.proyectos .divProyectos .grid-container2 .grid-item2 .info:hover {
+  opacity: 1;
+}
+.proyectos .divProyectos .grid-container2 .grid-item2 .info h3 {
+  font-size: 40px;
+}
+.proyectos .divProyectos .grid-container2 .grid-item2 .info a {
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: transform 0.3s ease-out;
+}
+.proyectos .divProyectos .grid-container2 .grid-item2 .info a:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */

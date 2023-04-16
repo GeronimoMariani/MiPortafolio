@@ -230,3 +230,79 @@ header {
         }
     }
 }
+.proyectos {
+    .divProyectos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h6 {
+            margin-top: 125px;
+            font-size: 18px;
+            color: #004aad;
+        }
+        h2 {
+            font-size: 50px;
+            color: #449DD1;
+        }
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            column-gap: 30px;
+            .grid-item2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f0f1e0;
+                box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.2);
+                border-radius: 15px;
+                width: 550px;
+                height: 350px;
+                margin-top: 50px;
+                position: relative;
+                img {
+                    width: 500px;
+                    height: 300px;
+                    border-radius: 10px;
+                }
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 1;
+                    opacity: 0;
+                    transition: opacity 0.5s ease-in-out;
+                    cursor: pointer;
+                    color: white;
+                    background-image: radial-gradient(circle at 14.64% -11.24%, #d050ed 0, #b848ef 16.67%, #9b41f1 33.33%, #783cf2 50%, #4439f3 66.67%, #0038f5 83.33%, #0039f6 100%);
+                    border-radius: 10px;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    h3 {
+                        font-size: 40px;
+                    }
+                    a {
+                        background-color: white;
+                        border-radius: 5px;
+                        padding: 7px 20px;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                        transition: transform .3s ease-out;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
