@@ -9,7 +9,8 @@ body {
   background-color: #1f2937;
 }
 
-header {
+/* INDEX */
+.headerIndex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -375,4 +376,27 @@ header {
   border: none;
   border-radius: 10px;
   background-image: radial-gradient(circle at 14.64% -11.24%, #d050ed 0, #b848ef 16.67%, #9b41f1 33.33%, #783cf2 50%, #4439f3 66.67%, #0038f5 83.33%, #0039f6 100%);
+}
+
+/* EXITO */
+.exito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.exito .divExito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.exito .divExito svg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.exito .divExito h5 {
+  color: #449DD1;
+  font-size: 30px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,10 @@
 body {
     background-color: #1f2937;
 }
-header {
+
+/* INDEX */
+
+.headerIndex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -354,3 +357,30 @@ header {
         }
     }
 }
+
+/* EXITO */
+
+.exito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .divExito {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        svg {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        h5 {
+            color: #449DD1;
+            font-size: 30px;
+        }
+    }
+}
+
+
+
