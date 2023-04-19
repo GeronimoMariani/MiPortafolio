@@ -23,9 +23,13 @@ body {
   margin-left: 50px;
 }
 
+.navIdioma {
+  margin-right: 50px;
+}
+
 .navIdioma ul {
   list-style-type: none;
-  margin-right: 190px;
+  margin-right: 50px;
   padding: 0;
   width: 40px;
   height: 35px;
@@ -65,10 +69,13 @@ body {
   width: 100%;
 }
 
+.presentacion {
+  height: 80vh;
+  margin-top: 100px;
+}
+
 .divPresentacion {
-  width: 700px;
-  height: auto;
-  margin: 125px auto;
+  margin: 0px auto;
   text-align: center;
   font-weight: 700;
 }
@@ -83,19 +90,21 @@ body {
 .divPresentacion p {
   font-size: 1.125rem;
   font-weight: 400;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .redes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 20px;
 }
 
 .likedin {
   display: inline-block;
   background-color: white;
-  margin: 0px auto;
+  margin: 0px 20px;
   width: 55px;
   height: 55px;
   text-decoration: none;
@@ -114,7 +123,7 @@ body {
 .gitHub {
   display: inline-block;
   background-color: white;
-  margin: 0px auto;
+  margin: 0px 20px;
   width: 55px;
   height: 55px;
   text-decoration: none;
@@ -133,7 +142,7 @@ body {
 .correo {
   display: inline-block;
   background-color: white;
-  margin: 0px auto;
+  margin: 0px 20px;
   width: 55px;
   height: 55px;
   text-decoration: none;
@@ -152,7 +161,7 @@ body {
 .whatsapp {
   display: inline-block;
   background-color: white;
-  margin: 0px auto;
+  margin: 0px 20px;
   width: 55px;
   height: 55px;
   text-decoration: none;
@@ -172,15 +181,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 100vh;
 }
 .sobreMi .divSobreMi {
-  width: 700px;
-  height: auto;
-  margin: 300px 0;
+  width: 50%;
   font-weight: 700;
 }
 .sobreMi .divSobreMi h6 {
-  margin-right: 125px;
   font-size: 18px;
   color: #004aad;
 }
@@ -193,12 +200,7 @@ body {
   font-weight: 400;
 }
 .sobreMi .divImg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 400px 0;
-  width: 400px;
-  height: 500px;
+  padding: 20px;
   border-radius: 10px;
   background-color: #1f2937;
   box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.2);
@@ -209,6 +211,10 @@ body {
   border-radius: 10px;
 }
 
+.habilidades {
+  margin-top: 200px;
+  height: 80vh;
+}
 .habilidades .divHabilidades {
   display: flex;
   flex-direction: column;
@@ -216,7 +222,6 @@ body {
   align-items: center;
 }
 .habilidades .divHabilidades h6 {
-  margin-top: 100px;
   font-size: 18px;
   color: #004aad;
 }
@@ -252,6 +257,9 @@ body {
   font-weight: 700;
 }
 
+.proyectos {
+  height: 100vh;
+}
 .proyectos .divProyectos {
   display: flex;
   flex-direction: column;
@@ -259,7 +267,6 @@ body {
   align-items: center;
 }
 .proyectos .divProyectos h6 {
-  margin-top: 125px;
   font-size: 18px;
   color: #004aad;
 }
@@ -281,14 +288,13 @@ body {
   background-color: #f0f1e0;
   box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  width: 550px;
-  height: 350px;
+  padding: 20px;
   margin-top: 50px;
   position: relative;
 }
 .proyectos .divProyectos .grid-container2 .grid-item2 img {
-  width: 500px;
-  height: 300px;
+  width: 350px;
+  height: auto;
   border-radius: 10px;
 }
 .proyectos .divProyectos .grid-container2 .grid-item2 .info {
@@ -328,11 +334,15 @@ body {
   transform: scale(1.1);
 }
 
+.contacto {
+  height: 100vh;
+  width: 100%;
+}
+
 .divContacto {
   text-align: center;
 }
 .divContacto h6 {
-  margin-top: 300px;
   font-size: 18px;
   color: #004aad;
 }
@@ -346,12 +356,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 700px;
   height: auto;
   margin: 0 auto;
   background-color: #f0f1e0;
   border-radius: 10px;
-  margin-bottom: 100px;
 }
 .form1 .form-row {
   display: flex;
@@ -359,12 +367,10 @@ body {
   margin: 20px 30px;
 }
 .form1 .form-row input {
-  width: 100%;
   height: 50px;
   padding: 2px;
 }
 .form1 .form-row textarea {
-  width: 100%;
   resize: none;
   padding: 2px;
 }
@@ -399,4 +405,95 @@ body {
 .exito .divExito h5 {
   color: #449DD1;
   font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+  .habilidades .divHabilidades .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .proyectos .divProyectos .grid-container2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .contacto {
+    height: 120vh;
+  }
+}
+@media (max-width: 768px) {
+  .presentacion {
+    height: 70vh;
+  }
+  .presentacion .divPresentacion p {
+    width: 100%;
+  }
+  .sobreMi {
+    flex-direction: column;
+  }
+  .sobreMi .divSobreMi {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .sobreMi .divImg {
+    margin-top: 30px;
+    padding: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .headerIndex .divLogo .imgLogo {
+    margin: 0;
+  }
+  .headerIndex .navIdioma {
+    margin: 0;
+  }
+  .presentacion {
+    height: 70vh;
+  }
+  .presentacion .divPresentacion h1 {
+    font-size: 2.438rem;
+  }
+  .presentacion .divPresentacion h2 {
+    font-size: 2.125rem;
+  }
+  .presentacion .divPresentacion p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .sobreMi {
+    height: 120vh;
+  }
+  .sobreMi .divSobreMi {
+    margin: 0 auto;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .sobreMi .divSobreMi h2 {
+    font-size: 2.438rem;
+  }
+  .sobreMi .divSobreMi p {
+    font-size: 1rem;
+  }
+  .habilidades {
+    height: 160vh;
+  }
+  .habilidades .divHabilidades {
+    text-align: center;
+  }
+  .habilidades .divHabilidades h2 {
+    font-size: 2.438rem;
+  }
+  .habilidades .divHabilidades .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .proyectos .divProyectos h2 {
+    font-size: 1.8rem;
+  }
+}
+.contacto {
+  height: 110vh;
+}
+.contacto .divContacto h2 {
+  font-size: 2.438rem;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,113 @@
+@media (max-width: 1024px) {
+    .habilidades {
+        .divHabilidades {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+            }
+        }
+    }
+    .proyectos {
+        .divProyectos {
+            .grid-container2 {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(1, 1fr);
+            }
+        }
+    }
+    .contacto {
+        height: 120vh;
+    }
+}
+@media (max-width: 768px) {
+    .presentacion {
+        height: 70vh;
+        .divPresentacion {
+            p {
+                width: 100%;
+            }
+        }
+    }
+    .sobreMi {
+        flex-direction: column;
+        .divSobreMi {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .divImg {
+            margin-top: 30px;
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .headerIndex {
+        .divLogo {
+            .imgLogo {
+                margin: 0;
+            }
+        }
+        .navIdioma {
+            margin: 0;
+        }
+    }
+    .presentacion {
+        height: 70vh;
+        .divPresentacion {
+            h1 {
+                font-size: 2.438rem;
+            }
+            h2 {
+                font-size: 2.125rem;
+            }
+            p {
+                font-size: 1.0rem;
+                width: 100%;
+            }
+        }
+    }
+    .sobreMi {
+        height: 120vh;
+        .divSobreMi {
+            margin: 0 auto;
+            text-align: center;
+            word-wrap: break-word;
+            h2 {
+                font-size: 2.438rem;
+            }
+            p {
+                font-size: 1.0rem;
+            }
+        }
+    }
+    .habilidades {
+        height: 160vh;
+        .divHabilidades {
+            text-align: center;
+            h2 {
+                font-size: 2.438rem;
+            }
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+            }
+        }
+    }
+    .proyectos {
+        .divProyectos {
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+.contacto {
+    height: 110vh;
+    .divContacto {
+        h2 {
+            font-size: 2.438rem;
+        }
+    }
+}

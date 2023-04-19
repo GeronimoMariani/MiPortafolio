@@ -30,8 +30,8 @@
         </nav>
     </header>
     <main>
-        <section class="presentacion container-fluid">
-            <div class="divPresentacion text-white">
+        <section class="presentacion">
+            <div class="divPresentacion container-fluid text-white">
                 <h1>Hola! Me llamo Gerónimo</h1>
                 <h2>Soy Desarrollador Web</h2>
                 <p>Soy de Argentina. Me especializo en diseñar y codear páginas web responsive. Siempre me encuentro practicando mis habilidades o aprendiendo tecnologías nuevas. Actualmente estoy cursando la carrera Full-Stack en la Academia CoderHouse para complementar mis conocimientos.</p>
@@ -50,8 +50,8 @@
                 <p>Me llamo Gerónimo Mariani, soy de Argentina. Siempre estuve en el mundillo de la informática y fue lo que siempre me gusto, me considero una persona puntual, ordenada, responsable y no tengo problema de trabajar en equipo.</p>
                 <p>Recientemente me cautivó la programación. Comencé a estudiar en CoderHouse y actualmente me recibí de Desarrollador Web. Todo el tiempo estoy tratando de aprender cosas nuevas por mi cuenta, y también, actualmente estoy estudiando la carrera Full-Stack.</p>
             </div>
-            <div data-aos="fade-down-left" class="divImg fade-left">
-                <img data-aos="fade-down-left" src="./images/miFoto.jpg" alt="">
+            <div data-aos="fade-down-left" class="divImg">
+                <img data-aos="fade-down-left" src="./images/miFoto.jpg" alt="Foto de perfil">
             </div>
         </section>
         <section class="habilidades">
@@ -91,7 +91,7 @@
                 <h6>PROYECTOS</h6>
                 <h2>Los proyectos que construí</h2>
                 <div class="grid-container2">
-                    <div class="grid-item2">
+                    <div class="grid-item2 container-fluid">
                         <img src="./images/pasionchocolateria.jpg" alt="Pasion Chocolateria">
                         <div class="info">
                             <h3>Pasion Chocolateria</h3>
@@ -107,10 +107,14 @@
                 <h6>CONTACTO</h6>
                 <h2>Contáctame</h2>
             </div>
-            <form class="form1" action="https://formsubmit.co/geronimomariani5@gmail.com" method="POST">
+            <form class="form1 container" action="https://formsubmit.co/geronimomariani5@gmail.com" method="POST">
                 <div class="form-row">
                     <label for="nombre">Nombre</label>
                     <input id="nombre" name="name" type="text" required>
+                </div>
+                <div class="form-row">
+                    <label for="tel">Telefono</label>
+                    <input type="tel" name="tel" id="tel">
                 </div>
                 <div class="form-row">
                     <label for="email">Email</label>
