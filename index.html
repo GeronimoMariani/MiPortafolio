@@ -107,10 +107,10 @@
                 <h6>CONTACTO</h6>
                 <h2>Contáctame</h2>
             </div>
-            <form class="form1" action="form.php" method="post">
+            <form class="form1" action="https://formsubmit.co/geronimomariani5@gmail.com" method="POST">
                 <div class="form-row">
                     <label for="nombre">Nombre</label>
-                    <input id="nombre" name="nombre" type="text" required>
+                    <input id="nombre" name="name" type="text" required>
                 </div>
                 <div class="form-row">
                     <label for="email">Email</label>
@@ -118,11 +118,13 @@
                 </div>
                 <div class="form-row">
                     <label for="textarea">Deje su mensaje:</label>
-                    <textarea name="textarea" id="textarea" cols="30" rows="10" required></textarea>
+                    <textarea name="message" id="textarea" cols="30" rows="10" required></textarea>
                 </div>
                 <div class="form-row">
                     <button>Enviar</button>
                 </div>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/exito.html">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </section>
     </main>

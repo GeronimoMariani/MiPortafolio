@@ -86,9 +86,9 @@ body {
     height: 55px;
     text-decoration: none;
     border-radius: 100px;
+    transition: transform .4s ease-out;
     &:hover {
         transform: scale(1.1);
-        transition: all .6s;
     }
     .fa-linkedin-in {
         font-size: 20px;
@@ -104,9 +104,9 @@ body {
     height: 55px;
     text-decoration: none;
     border-radius: 100px;
+    transition: transform .4s ease-out;
     &:hover {
         transform: scale(1.1);
-        transition: all .6s;
     }
     .fa-github {
         font-size: 20px;
@@ -122,9 +122,9 @@ body {
     height: 55px;
     text-decoration: none;
     border-radius: 100px;
+    transition: transform .4s ease-out;
     &:hover {
         transform: scale(1.1);
-        transition: all .6s;
     }
     .fa-envelope {
         font-size: 20px;
@@ -140,9 +140,9 @@ body {
     height: 55px;
     text-decoration: none;
     border-radius: 100px;
+    transition: transform .4s ease-out;
     &:hover {
         transform: scale(1.1);
-        transition: all .6s;
     }
     .fa-whatsapp {
         font-size: 20px;
