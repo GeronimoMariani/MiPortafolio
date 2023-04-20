@@ -40,6 +40,13 @@
             padding: 20px;
         }
     }
+    .exito {
+        .divExito {
+            h5 {
+                font-size: 25px;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -102,12 +109,19 @@
             }
         }
     }
-}
-.contacto {
-    height: 110vh;
-    .divContacto {
-        h2 {
-            font-size: 2.438rem;
+    .contacto {
+        height: 110vh;
+        .divContacto {
+            h2 {
+                font-size: 2.438rem;
+            }
+        }
+    }
+    .exito {
+        .divExito {
+            h5 {
+                font-size: 20px;
+            }
         }
     }
 }

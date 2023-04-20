@@ -42,6 +42,8 @@ body {
 .navIdioma ul li {
   display: inline-block;
   position: relative;
+  color: white;
+  cursor: pointer;
 }
 
 .navIdioma ul li ul {
@@ -396,6 +398,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .exito .divExito svg {
   width: 80px;
@@ -438,6 +441,9 @@ body {
   .sobreMi .divImg {
     margin-top: 30px;
     padding: 20px;
+  }
+  .exito .divExito h5 {
+    font-size: 25px;
   }
 }
 @media (max-width: 576px) {
@@ -490,10 +496,13 @@ body {
   .proyectos .divProyectos h2 {
     font-size: 1.8rem;
   }
-}
-.contacto {
-  height: 110vh;
-}
-.contacto .divContacto h2 {
-  font-size: 2.438rem;
+  .contacto {
+    height: 110vh;
+  }
+  .contacto .divContacto h2 {
+    font-size: 2.438rem;
+  }
+  .exito .divExito h5 {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
