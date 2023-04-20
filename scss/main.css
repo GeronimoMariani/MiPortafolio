@@ -337,7 +337,8 @@ body {
 
 .contacto {
   height: 100vh;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .divContacto {
@@ -357,7 +358,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: auto;
   background-color: #f0f1e0;
   border-radius: 10px;
 }
@@ -419,6 +419,7 @@ body {
   }
   .contacto {
     height: 120vh;
+    width: 70%;
   }
 }
 @media (max-width: 768px) {
@@ -461,7 +462,7 @@ body {
     font-size: 2.125rem;
   }
   .presentacion .divPresentacion p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 100%;
   }
   .sobreMi {
@@ -470,13 +471,12 @@ body {
   .sobreMi .divSobreMi {
     margin: 0 auto;
     text-align: center;
-    word-wrap: break-word;
   }
   .sobreMi .divSobreMi h2 {
     font-size: 2.438rem;
   }
   .sobreMi .divSobreMi p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .habilidades {
     height: 160vh;
@@ -496,6 +496,7 @@ body {
   }
   .contacto {
     height: 110vh;
+    width: 90%;
   }
   .contacto .divContacto h2 {
     font-size: 2.438rem;

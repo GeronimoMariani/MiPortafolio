@@ -17,6 +17,7 @@
     }
     .contacto {
         height: 120vh;
+        width: 70%;
     }
 }
 @media (max-width: 768px) {
@@ -70,7 +71,7 @@
                 font-size: 2.125rem;
             }
             p {
-                font-size: 1.0rem;
+                font-size: 0.9rem;
                 width: 100%;
             }
         }
@@ -80,12 +81,11 @@
         .divSobreMi {
             margin: 0 auto;
             text-align: center;
-            word-wrap: break-word;
             h2 {
                 font-size: 2.438rem;
             }
             p {
-                font-size: 1.0rem;
+                font-size: 0.9rem;
             }
         }
     }
@@ -111,6 +111,7 @@
     }
     .contacto {
         height: 110vh;
+        width: 90%;
         .divContacto {
             h2 {
                 font-size: 2.438rem;
