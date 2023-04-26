@@ -14,13 +14,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 
 .divLogo .imgLogo {
-  width: 180px;
+  width: 150px;
   height: auto;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .navIdioma {
@@ -447,7 +448,8 @@ body {
 }
 @media (max-width: 576px) {
   .headerIndex .divLogo .imgLogo {
-    margin: 0;
+    width: 120px;
+    margin-left: 40px;
   }
   .headerIndex .navIdioma {
     margin: 0;
