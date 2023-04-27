@@ -18,7 +18,7 @@ body {
 }
 
 .divLogo .imgLogo {
-  width: 150px;
+  width: 130px;
   height: auto;
   text-align: center;
   margin-left: 100px;
@@ -215,7 +215,7 @@ body {
 
 .habilidades {
   margin-top: 200px;
-  height: 80vh;
+  height: 100vh;
 }
 .habilidades .divHabilidades {
   display: flex;
